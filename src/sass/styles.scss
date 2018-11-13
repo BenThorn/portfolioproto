@@ -2,5 +2,25 @@ $main-font: 'Geneva', sans-serif;
 
 .App {
   font-family: $main-font;
-  background-color: red;
+  background-color: slategray;
+}
+
+.Navbar {
+  ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+  }
+
+  li {
+    padding: 5px 10px 5px 10px;
+    margin-left: 50px;
+    display: inline-block;
+    cursor: pointer;
+
+    &:hover {
+      background-color: lightgray;
+    }
+  }
+
 }

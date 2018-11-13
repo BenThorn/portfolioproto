@@ -1,6 +1,21 @@
 .App {
   font-family: "Geneva", sans-serif;
-  background-color: red;
+  background-color: slategray;
+}
+
+.Navbar ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+}
+.Navbar li {
+  padding: 5px 10px 5px 10px;
+  margin-left: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+.Navbar li:hover {
+  background-color: lightgray;
 }
 
 /*# sourceMappingURL=App.css.map */
