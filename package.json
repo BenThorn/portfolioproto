@@ -4,9 +4,11 @@
   "private": true,
   "homepage": "https://benthorn.github.io/portfolio-site",
   "dependencies": {
+    "concurrently": "^4.0.1",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
-    "react-scripts": "2.1.1"
+    "react-scripts": "2.1.1",
+    "sass": "^1.14.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,7 +16,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "sass": "sass --watch src/sass/styles.scss src/App.css",
+    "dev": "concurrently --kill-others-on-fail \"npm run sass\" \"npm run start\""
   },
   "eslintConfig": {
     "extends": "react-app"
