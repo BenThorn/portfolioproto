@@ -5,6 +5,7 @@
   "homepage": "https://benthorn.github.io/portfolio-site",
   "dependencies": {
     "concurrently": "^4.0.1",
+    "fs": "0.0.1-security",
     "jquery": "^3.3.1",
     "jquery-address": "^1.6.0",
     "react": "^16.6.1",

@@ -1,21 +1,172 @@
-.App {
-  font-family: "Geneva", sans-serif;
-  background-color: slategray;
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+body {
+  height: 100%;
+  background-color: #c2cfdc;
+  overflow-y: scroll;
 }
 
+.Navbar {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+     supported by Chrome and Opera */
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  background-color: #2e3943;
+}
 .Navbar ul {
+  text-align: center;
   list-style-type: none;
-  margin: auto;
+  max-width: 700px;
+  margin: 0 auto;
   padding: 0;
 }
-.Navbar li {
-  padding: 5px 10px 5px 10px;
-  margin-left: 50px;
+.Navbar ul #selected {
+  color: white;
+  border-bottom: 2px solid #abc4dc;
+}
+.Navbar ul li {
+  color: #abc4dc;
+  padding: 10px 35px 10px 35px;
+  min-width: 20px;
+  margin-left: 20px;
   display: inline-block;
   cursor: pointer;
 }
-.Navbar li:hover {
-  background-color: lightgray;
+.Navbar ul li:hover {
+  color: white;
+}
+.Navbar ul li:first-child {
+  margin: 0 !important;
+}
+
+.Home #header {
+  margin: 0;
+  background: #2e3943;
+  background: linear-gradient(0deg, #2e3943 0%, #5c6976 50%);
+  width: 100%;
+  height: 450px;
+}
+.Home #header #blurb {
+  text-align: center;
+  color: white;
+  max-width: 550px;
+  margin: 0 auto;
+  padding-top: 60px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+}
+.Home #header #blurb #name {
+  border-bottom: 2px solid #abc4dc;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.Home #header p {
+  margin: 0;
+}
+.Home #intro {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  max-width: 700px;
+  font-size: 25px;
+  margin: 0 auto;
+}
+
+.About, .Projects, .Contact {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  max-width: 625px;
+  margin: 0 auto;
+}
+.About h3, .Projects h3, .Contact h3 {
+  max-width: 650px;
+  font-weight: 300;
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #2e3943;
+}
+.About p, .Projects p, .Contact p {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 26px;
+}
+.About img, .Projects img, .Contact img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+}
+.About ul, .Projects ul, .Contact ul {
+  line-height: 30px;
+  padding-left: 20px;
+  font-weight: 300;
+}
+.About #degrees, .Projects #degrees, .Contact #degrees {
+  font-size: 20px;
+}
+.About #logos img, .Projects #logos img, .Contact #logos img {
+  width: 90px;
+  margin-right: 20px;
+}
+.About #logos img:last-child, .Projects #logos img:last-child, .Contact #logos img:last-child {
+  width: 120px;
+  margin-bottom: 20px;
+}
+.About #job, .Projects #job, .Contact #job {
+  font-weight: 300 !important;
+  font-size: 24px;
+}
+
+.Projects #buttons {
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.Projects #buttons button {
+  margin-top: 20px;
+}
+
+.Contact p {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+button {
+  margin-top: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 2px solid #4e78a2;
+  border-radius: 15px;
+  color: white;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 350;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  background-color: #4e78a2;
+  cursor: pointer;
+}
+button:first-child {
+  margin-right: 10px;
+}
+button:hover {
+  color: white;
+  border: 2px solid #abc4dc;
 }
 
 /*# sourceMappingURL=App.css.map */
