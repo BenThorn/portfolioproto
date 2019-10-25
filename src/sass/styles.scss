@@ -17,6 +17,7 @@ body{
   height: 100%;
   background-color: $color-light;
   overflow-y: scroll;
+  padding-bottom: 1em;
 }
 
 .Navbar {
@@ -70,17 +71,21 @@ body{
     background: rgb(46,57,67);
     background: linear-gradient(0deg, rgba(46,57,67,1) 0%, rgba(92,105,118,1) 50%);
     width: 100%;
-    height: 450px;
+    height: 400px;
+
+    @media screen and (max-width: 500px) {
+      height: 450px;
+    }
 
     #blurb {
       text-align: center;
       color: white;
       max-width: 550px;
       margin: 0 auto;
-      padding-top: 60px;
+      padding-top: 40px;
       font-family: $roboto;
       font-weight: 300;
-      font-size: 40px;
+      font-size: 36px;
   
       #name {
         border-bottom: 2px solid $color-underline;
@@ -99,6 +104,7 @@ body{
     font-weight: 300;
     max-width: 700px;
     font-size: 25px;
+    padding: 0 20px;
     margin: 0 auto;
   }
 }
@@ -106,6 +112,7 @@ body{
 .About, .Projects, .Contact {
   font-family: $roboto;
   max-width: 625px;
+  padding: 0 30px;
   margin: 0 auto;
 
   h3{

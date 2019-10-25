@@ -4,6 +4,7 @@ body {
   height: 100%;
   background-color: #c2cfdc;
   overflow-y: scroll;
+  padding-bottom: 1em;
 }
 
 .Navbar {
@@ -56,17 +57,17 @@ body {
   background: #2e3943;
   background: linear-gradient(0deg, #2e3943 0%, #5c6976 50%);
   width: 100%;
-  height: 450px;
+  height: 400px;
 }
 .Home #header #blurb {
   text-align: center;
   color: white;
   max-width: 550px;
   margin: 0 auto;
-  padding-top: 60px;
+  padding-top: 40px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 36px;
 }
 .Home #header #blurb #name {
   border-bottom: 2px solid #abc4dc;
@@ -81,12 +82,14 @@ body {
   font-weight: 300;
   max-width: 700px;
   font-size: 25px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
 .About, .Projects, .Contact {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   max-width: 625px;
+  padding: 0 30px;
   margin: 0 auto;
 }
 .About h3, .Projects h3, .Contact h3 {

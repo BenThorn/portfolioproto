@@ -4,14 +4,14 @@
   "private": true,
   "homepage": "https://benthorn.github.io/portfolio-site",
   "dependencies": {
-    "concurrently": "^4.0.1",
+    "concurrently": "^4.1.2",
     "fs": "0.0.1-security",
     "jquery": "^3.3.1",
     "jquery-address": "^1.6.0",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-scripts": "2.1.1",
-    "sass": "^1.14.3"
+    "sass": "^1.22.12"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,6 +33,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.1.1"
   }
 }
